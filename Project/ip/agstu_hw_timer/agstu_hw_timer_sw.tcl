@@ -1,8 +1,0 @@
-create_driver agstu_hw_timer
-set_sw_property hw_class_name agstu_hw_timer
-set_sw_property version 1.1
-set_sw_property min_compatible_hw_version 0.0.1
-#set_sw_property bsp_subdirectory drivers
-add_sw_property include_source HAL/inc/agstu_hw_timer_regs.h
-add_sw_property supported_bsp_type HAL
-

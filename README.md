@@ -15,9 +15,9 @@ The functionality of the component is defined as follows:
 
 ## Integration and Configuration
 
-The component is designed to work with a Nios® II processor via Avalon® interfaces and builds upon a prototype developed within the framework of the project *“Time-Controlled Scheduler in FPGA. Engineering Project – Examination.”*
+The component is designed to work with a Nios® V processor via Avalon® interfaces and builds upon a prototype developed within the framework of the project *“Time-Controlled Scheduler in FPGA. Engineering Project – Examination.”*
 
-The component is intended for integration into Nios® II-based systems via Quartus Platform Designer, where the following parameters can be configured:
+The component is intended for integration into Nios® V-based systems via Quartus Platform Designer, where the following parameters can be configured:
 
 - The number of periods the component will handle
 - The priority for each period
@@ -27,7 +27,7 @@ The component is intended for integration into Nios® II-based systems via Quart
 
 ## Additional Development 
 
-As part of the component, a software driver has been developed to facilitate management of the component from software running on the Nios® II processor. Additionally, test programs have been created to verify both the hardware and software functionality.
+As part of the component, a software driver has been developed to facilitate management of the component from software running on the Nios® V processor. Additionally, test programs have been created to verify both the hardware and software functionality.
 
 ## Version Control and Project Management
 
